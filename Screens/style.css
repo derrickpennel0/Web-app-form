@@ -1,5 +1,44 @@
         body {
             background-repeat: no-repeat;
             background-size: cover;
-            background-image: url(./blurred.jpeg);
+            background-image: url(./image.png);
+        }
+        
+        legend {
+            padding: 15px;
+        }
+        
+        .profilePictureContainer {
+            flex-direction: "row";
+            margin-left: 1000px;
+        }
+        
+        .personalDetailsContainer {
+            margin-left: 100px;
+            background-color: "blue";
+            width: 110px;
+            height: 100px;
+        }
+        
+        .guardianDetailsContainer {
+            position: "relative";
+            left: 80px;
+            top: -110px;
+            background-color: "red";
+            float: right;
+            margin-right: 10px;
+            margin-top: 70px;
+        }
+        
+        fieldset {
+            background-color: green;
+            width: 10%;
+        }
+        
+        .buttonsContainer {
+            background-color: red;
+            margin-right: 40px;
+            width: 50px;
+            height: 30px;
+            flex-direction: row;
         }
