@@ -10,7 +10,7 @@
         
         .profilePictureContainer {
             flex-direction: "row";
-            margin-left: 1000px;
+            margin-left: 1001px;
         }
         
         .personalDetailsContainer {
@@ -24,7 +24,7 @@
             position: "relative";
             left: 80px;
             top: -110px;
-            background-color: "red";
+            background-color: "pink";
             float: right;
             margin-right: 10px;
             margin-top: 70px;
