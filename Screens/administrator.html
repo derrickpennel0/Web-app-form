@@ -8,37 +8,46 @@
 </head>
 
 <body>
-    <form>
-        <fieldset>
-            <legend>Form</legend>
-            <div class="profilePictureContainer ">
-                <form id="profile-picture " class="details " name="form " action=" " method=" ">
-                    <label class="header ">Insert Image Here:</label><br>
-                    <input type="file" id="image " name="profile_photo " placeholder="Photo" required="capture "><br>
-                </form>
-            </div>
+    <div class="wrapper">
 
-            <div class="personalDetailsContainer">
-                <h2 style="color:white;">Personal Details</h2>
-                <form id="personal-details " class="details " name="form " action=" " method=" ">
+        <div class="profilePictureContainer ">
+            <img src="profile-pic.jpeg">
+            <form id="profile-picture " class="details " name="form " action=" " method=" ">
+                <label class="header ">Insert Image Here:</label><br>
+                <input type="file" id="image " name="profile_photo " placeholder="Photo" required="capture "><br>
+            </form>
+        </div>
+
+
+
+        <div class="personalDetailsContainer">
+            <form id="personal-details " class="details " name="form " action=" " method=" ">
+                <fieldset>
+                    <legend>Personal Details </legend>
                     <label for="fname "><b>First Name:</b></label><br>
                     <input type="text " id="fname " name="name "><br>
                     <label for="lname "><b>Last Name:</b></label> <br>
                     <input type="text " id="lname " name="name "><br>
                     <label for="dname"><b>Date Of Birth:</b></label> <br>
                     <input type="date" id="dname " name="name "><br>
-                    <label for="pname "><b>Place Of Birth:</b></label> <br>
-                    <input type="text " id="pname " name="name "><br>
+                    <label for="pname"><b>Place Of Birth:</b></label> <br>
+                    <input type="text" id="pname " name="name "><br>
                     <label for="sname "><b>Sex:</b></label> <br>
-                    <input type="radio" name="gender " value="female ">Female<br>
-                    <input type="radio" name="gender " value="male ">Male<br>
+                    <input type="radio" name="gender" class="ale">
+                    <label for="female "><b>Female</b></label> <br />
+                    <input type="radio" name="gender" class="ale">
+                    <label for="male "><b>Male</b></label><br/><br/>
                     <label for="myagename"><b>Age:</b></label><br>
-                    <input type="text " id="myage " name="age "><br>
-                </form>
-            </div>
-            <div class="guardianDetailsContainer">
-                <h2 style="color:white;">Guardian Details</h2>
-                <form id="guardian-details " class="details " name="form " action=" " method=" ">
+                    <input type="text" id="myage " name="age "><br>
+                </fieldset>
+            </form>
+        </div>
+
+
+        <div class="guardianDetailsContainer">
+            <form id="guardian-details " class="details " name="form " action=" " method=" ">
+                <fieldset>
+                    <legend> Guardian Details </legend>
                     <label for="fname "><b>Father's Name:</b></label><br>
                     <input type="text " id="Fname " name="name "><br>
                     <label for="fname "><b>Date Of Death</b></label> <br>
@@ -51,16 +60,19 @@
                     <input type="text " id="gname " name="name "><br>
                     <label for="fname "><b>Contact:</b></label> <br>
                     <input type="text " id="cname " name="name "><br>
-                </form>
-            </div>
-            <div class="buttonsContainer">
-                <form id="buttons1 " class="details " name="form " action=" " method=" ">
-                    <input id="modify " type="submit " value="Modify " name="name ">
-                    <input id="save " type="submit " value="Save " name="name ">
-                </form>
-            </div>
-        </fieldset>
-    </form>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="buttonsContainer">
+            <form id="buttons1 " class="details " name="form " action=" " method=" ">
+                <input type="submit" id="modify" value="Modify " name="name ">
+                <input type="submit" id="save" value="Save" name="name ">
+            </form>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
