@@ -39,6 +39,7 @@ input {
 .personalDetailsContainer {
     margin: 0% 5% 10% 10%;
     height: 40px;
+    float: left;
     width: 30%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
